@@ -10,7 +10,6 @@ ADD . /go/src/github.com/mityi/go-k8s-simple
 WORKDIR /go/src/github.com/mityi/go-k8s-simple
 
 # build the binary with go build
-
 RUN CGO_ENABLED=0 go build \
 	-ldflags "-s -w -X github.com/mityi/go-k8s-simple/internal/version.Version=${RELEASE}" \
 	-o bin/go-k8s-api github.com/mityi/go-k8s-simple/cmd/go-k8s-api
