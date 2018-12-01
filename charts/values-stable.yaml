@@ -35,7 +35,7 @@ image:
   ## Docker Registry/Hub image name and tag
   ##
   registry: docker.io/webdeva
-  name: nsk
+  name: go-k8s-api
   tag: 0.0.7
 
   ## Docker Registry/Hub image pull policy
@@ -77,7 +77,7 @@ ingress:
 service:
   ## App container name
   ##
-  name: nsk
+  name: go-k8s-api
   
   ## Service Type
   ## For minikube, set this to NodePort, elsewhere use ClusterIP

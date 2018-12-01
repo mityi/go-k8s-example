@@ -1,9 +1,9 @@
-name: nsk
+name: go-k8s-apifxf
 description: A Helm charts for Kubernetes application
-version: 0.0.1
+version: 0.0.7
 home: https://k8s.community/
 sources:
-  - https://github.com/mityi/go-k8s-example
+  - https://github.com/mityi/go-k8s-simple
 maintainers:
   - name: Kubernetes Community Authors
     email: k8s.community@gmail.com
