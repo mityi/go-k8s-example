@@ -1,4 +1,4 @@
-name: go-k8s-apifxf
+name: go-k8s-api
 description: A Helm charts for Kubernetes application
 version: 0.0.7
 home: https://k8s.community/
